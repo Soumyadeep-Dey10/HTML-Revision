@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset height = "200">
+    <legend>DropDown</legend>
+    <form action="">
+        <label for="City">Select your preferred city:</label>
+        <select name="" id="City" >
+            <optgroup label="South India">
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option>
+            </optgroup>
+            <optgroup label="West India">
+            <option value="Pune">Pune</option>
+            <option value="Mumbai" selected>Mumbai</option>
+            </optgroup>
+        </select>
+
+        <br>
+
+        <label for="Language">Choose Favourite Language:</label>
+        <input list="Language">
+        <datalist id="Language">
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="C#">C#</option>
+            <option value="C++">C++</option>
+        </datalist>
+    </form>
+    </fieldset>
+</body>
+</html>
